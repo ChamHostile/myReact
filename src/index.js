@@ -22,12 +22,14 @@ const App = () => (
         <Col lg="9">
           <h1>Bandes Annonces</h1>
           <Carrousel />
+          <hr />
           <h2>Movies Available</h2>
           <Gallery />
         </Col>
         <Col lg="3">
           <FormControl />
-          <img src="https://wvs.topleftpixel.com/photos/scotia_plaza_tall_stitched.jpg" alt="ad" />
+          <hr />
+          <img src="https://wvs.topleftpixel.com/photos/scotia_plaza_tall_stitched.jpg" width="230px" alt="ad" />
         </Col>
       </Row>
     </Container>
